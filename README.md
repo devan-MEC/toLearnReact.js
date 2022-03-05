@@ -49,7 +49,7 @@ index.js
 ReactDOM.render(<h1>YOOHOO</h1>,getElementById("root"));
 ```
 
-This renders the <h1> tag mentioned in the `index.js` on the `index.html` page. Voila!
+This renders the h1 tag mentioned in the `index.js` on the `index.html` page. Voila!
 
 ## Creating a react class component
 
