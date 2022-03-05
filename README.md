@@ -72,3 +72,23 @@ Render this component (basically use this inside the render function mentioned e
 ```bash
 ReactDOM.render(<MyComponent />, document.getElementById("root"));
 ```
+
+## Using variables
+
+```bash
+const navbar = (
+    <nav>
+        <h1>Bob's Bistro</h1>
+        <ul>
+            <li>Menu</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+)
+
+```
+
+```bash
+ReactDOM.render(navbar, document.getElementById("root"))
+```
