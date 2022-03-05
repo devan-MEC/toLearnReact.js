@@ -92,3 +92,12 @@ const navbar = (
 ```bash
 ReactDOM.render(navbar, document.getElementById("root"))
 ```
+
+## Alternate method to use React
+
+Get react as a dependency and import it
+
+```bash
+import React from "react"
+import ReactDOM from "react-dom"
+```
