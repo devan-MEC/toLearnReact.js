@@ -95,7 +95,7 @@ ReactDOM.render(navbar, document.getElementById("root"))
 
 ## Alternate method to use React
 
-Get react as a dependency and import it
+Get react as a dependency and import it inside index.js (The external import tags inside index.html can then be avoided)
 
 ```bash
 import React from "react"
