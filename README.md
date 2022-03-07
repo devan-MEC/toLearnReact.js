@@ -115,3 +115,11 @@ function MainPage(){
     )
 }
 ```
+
+## Adding styling
+
+Similar to how you would mention class="classname" you use the keyword className in react and link the stylesheet inside the .html file
+
+```bash
+<div className="container">
+```
