@@ -55,7 +55,7 @@ This renders the h1 tag mentioned in the `index.js` on the `index.html` page. Vo
 
 Components keeps your code clean and organized ( or 'composable code' as the react people seem to call it)
 
-Create a component (function name is the component name)
+Create a component (function name is the component name (in CamelCase))
 
 ```bash
 function MyComponent() {
@@ -100,4 +100,18 @@ Get react as a dependency and import it inside index.js (The external import tag
 ```bash
 import React from "react"
 import ReactDOM from "react-dom"
+```
+
+## Splitting the components
+
+You can further choose to include components inside components to make the whole thing more modular
+
+```bash
+function MainPage(){
+    return(
+        <Header />
+        <Content />
+        <Footer />
+    )
+}
 ```
