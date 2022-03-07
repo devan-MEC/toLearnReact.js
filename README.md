@@ -109,9 +109,11 @@ You can further choose to include components inside components to make the whole
 ```bash
 function MainPage(){
     return(
-        <Header />
-        <Content />
-        <Footer />
+        <div>
+            <Header />
+            <Content />
+            <Footer />
+        </div>
     )
 }
 ```
