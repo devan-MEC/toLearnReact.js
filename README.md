@@ -125,3 +125,26 @@ Similar to how you would mention class="classname" you use the keyword className
 ```bash
 <div className="container">
 ```
+
+## Moving each component into it's own file
+
+You can further improve upon the modularity by moving each component into it's own .js file. Just be sure to import React (not applicable for later versions of react) into each file and be sure to export the function using _export default_ and import it inside of the file where you're going to be using it
+
+```bash
+import React from "react"
+
+export default function Title() {
+    return (
+        <div>
+            <p>CSGO was kinda meh.</p>
+        </div>
+    )
+}
+
+```
+
+and import it inside the .js file you're going to be using it in
+
+```bash
+import Title from "./Title"
+```
