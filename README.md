@@ -148,3 +148,14 @@ and import it inside the .js file you're going to be using it in
 ```bash
 import Title from "./Title"
 ```
+
+## Setting up a local server
+
+- Make sure you have node and npm installed (preferably with nvm)
+- Run the following command which takes care of everything that happens under the hood with babel and webpack compiling
+
+```bash
+npx create-react-app my-app
+cd my-app
+npm start
+```
