@@ -159,3 +159,20 @@ npx create-react-app my-app
 cd my-app
 npm start
 ```
+
+## Including images and linking css
+
+This is most optimally done via importing the files and style beforehand in the .js file.
+
+When using create-react-app, images are stored inside the ../src/images folder and css files are stored inside the src file
+
+```bash
+import "./style.css"
+import reactLogo from  "../images/react_logo.png" //.. is used if we have to go back a folder in the path structure
+```
+
+After import, the image can be used as follows
+
+```bash
+<img src={reactLogo} />
+```
