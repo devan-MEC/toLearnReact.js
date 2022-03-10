@@ -176,3 +176,8 @@ After import, the image can be used as follows
 ```bash
 <img src={reactLogo} />
 ```
+
+## Adding google fonts to your page (using links)
+
+Obtain the 'links' of the font you want from the google fonts page and include it inside of `index.html`
+and specify the font family (also available from the google fonts site) in the `index.css`
